@@ -32,7 +32,7 @@ COCO_LABELS = {
 cap_webcam = cv2.VideoCapture(0)  # 0 for default webcam
 
 # Open the video file for processing
-video_file_path = r'C:\Users\HP\Downloads\Real-time-Object-Detection-and-Classification-using-SSD-Algorithm-master\Object Detection, Classification and Recognition using SSD Model\Input_video.mp4'
+video_file_path = "Input_video.mp4"
 cap_video = cv2.VideoCapture(video_file_path)
 
 # Check if webcam opened successfully
